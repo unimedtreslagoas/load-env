@@ -1,10 +1,9 @@
 {
-  "name": "unimed-load-env",
+  "name": "@unimedtl/unimed-load-env",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/nyc mocha -r ts-node/register ./test/**/*.spec.ts"
+    "test": "nyc mocha -r ts-node/register ./test/**/*.spec.ts"
   },
   "keywords": [],
   "author": "",
@@ -32,5 +31,17 @@
   },
   "dependencies": {
     "dotenv": "^10.0.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unimedtreslagoas/load-env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unimedtreslagoas/load-env/issues"
+  },
+  "homepage": "https://github.com/unimedtreslagoas/load-env#readme",
+  "description": ""
 }
